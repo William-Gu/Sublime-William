@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"auto-save",
+		"AutoFileName",
+		"Autoprefixer",
+		"Babel",
+		"Color Scheme - saulhudson",
+		"CSS3",
+		"Emmet",
+		"Highlight",
+		"JavaScript Completions",
+		"JavaScript Patterns",
+		"JsFormat",
+		"Nodejs",
+		"Package Control",
+		"ReactJS",
+		"Sass",
+		"SASS Build",
+		"SCSS",
+		"SCSS Expander",
+		"Syntax Highlighting for Sass",
+		"Terminal",
+		"TypeScript",
+		"View In Browser"
+	]
+}

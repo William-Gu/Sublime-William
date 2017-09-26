@@ -1,0 +1,44 @@
+[
+	{ "keys": ["super+d"], "command": "run_macro_file","args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["super+shift+n"], "command": "new_window" },
+  { "keys": ["super+shift+f"], "command": "js_format","context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]},
+  { "keys": ["super+shift+f"], "command": "reindent" },
+  { "keys": ["ctrl+alt+up"], "command": "duplicate_line" },
+  { "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
+  { "keys": ["ctrl+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+down"], "command": "swap_line_down" },
+  { "keys": ["alt+space"], "command": "auto_complete" },
+  { "keys": ["ctrl+space"], "command": "expand_selection", "args": {"to": "scope"} },
+  { "keys": ["ctrl+shift+enter"], "command": "view_in_browser" },
+  { "keys": ["ctrl+shift+r"], "command": "reindent" , "args":{"single_line": false}},
+  { "keys": ["tab"],"command": "expand_abbreviation_by_tab", 
+    "context": [{
+      "operand": "source.js", 
+      "operator": "equal", 
+      "match_all": true, 
+      "key": "selector"
+    },{
+      "key": "preceding_text", 
+      "operator": "regex_contains", 
+      "operand": "(\\b(a\\b|div|span|p\\b|button)(\\.\\w*|>\\w*)?)", 
+      "match_all": true
+    },{
+      "key": "selection_empty", 
+      "operator": "equal", 
+      "operand": true, 
+      "match_all": true
+    }]
+  },
+  { "keys": ["ctrl+alt+shift+p"], "command": "autoprefixer" },
+  {"keys": ["super+p"],
+   "command": "dired",
+   "args": {
+     "immediate": true,
+     "single_pane": true,
+     "other_group": "left",
+     "project": true
+    },
+  },
+  { "keys": ["alt+d"], "command": "find_under_expand" },
+  { "keys": ["alt+shift+d"], "command": "find_under_expand_skip" }
+]

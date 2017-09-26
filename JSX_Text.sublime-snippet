@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<Text style={styles.${1}}>${2:snippet}</Text>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>text</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.JavaScript(babel)</scope> -->
+</snippet>
